@@ -235,7 +235,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #333;
 }
 
@@ -302,15 +302,58 @@ body h4 {
 
 .header__title:last-of-type {
   padding-left: 6.6rem;
-  margin-bottom: 11.8rem;
+  margin-bottom: 11rem;
 }
 
 .btn_apple,
-.btn_google {
+.btn_google,
+.btn_apple span,
+.btn_google span {
   width: 14.2rem;
   height: 4rem;
-  margin: 0 0.3rem 0 0.3rem;
+  margin: 0 0.3rem 3.8rem 0.3rem;
   background-color: #5e42b0;
   border-color: transparent;
   border-radius: 20px;
+  color: #fff;
+}
+
+.btn_wrapper {
+  padding-left: 1rem;
+  display: inline-block;
+  text-align: left;
+}
+
+.google_play {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-image: url("../img/google_play.png");
+  background-size: cover;
+}
+
+.btn_apple,
+.btn_google,
+.btn_apple span,
+.btn_google span {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.btn_apple span,
+.btn_google span {
+  margin: 0;
+  font-weight: bolder;
+}
+
+.fa {
+  font-size: 1.8rem;
+}
+
+.header__nav__list li {
+  padding: 0 1.6rem 0 1.6rem;
+  display: inline-block;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #5e42b0;
+  line-height: 2rem;
 }
