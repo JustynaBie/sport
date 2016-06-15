@@ -274,35 +274,22 @@ body h4 {
   padding: 3.9rem 0 13rem 0;
 }
 
-.header__wrapper-invisible {
-  height: 5.5rem;
-  left: 0;
-  right: 0;
-  position: absolute;
-  top: 14.5rem;
+.header__wrapper-title {
+  height: 24rem;
+  width: 31.8rem;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid #fff;
 }
 
-.header__wrapper-invisible .stick {
+.header__wrapper-title .stick {
   height: 22.2rem;
   width: 0.4rem;
-  background-color: #5d40ad;
-  margin: 0 auto;
+  position: absolute;
+  top: -4rem;
+  left: 15rem;
+  background-color: #5e42b0;
   transform: rotate(39deg);
-}
-
-.header__title {
-  font-family: Montserrat;
-  padding-left: 0.8rem;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 3.2rem;
-  text-align: left;
-}
-
-.header__title:last-of-type {
-  padding-left: 6.6rem;
-  margin-bottom: 11rem;
 }
 
 .btn_apple,
@@ -316,6 +303,21 @@ body h4 {
   border-color: transparent;
   border-radius: 20px;
   color: #fff;
+}
+
+.title {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3.2rem;
+  position: absolute;
+  left: 0.3rem;
+  text-align: left;
+}
+
+.title:last-of-type {
+  top: 5.2rem;
+  left: 6rem;
 }
 
 .btn_wrapper {
