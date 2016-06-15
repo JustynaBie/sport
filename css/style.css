@@ -260,11 +260,6 @@ body h4 {
 }
 
 .header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   background-image: url("../img/header_320.jpg");
   background-size: cover;
   text-align: center;
@@ -308,6 +303,7 @@ body h4 {
 .title {
   font-family: Montserrat;
   text-transform: uppercase;
+  font-weight: bolder;
   color: #fff;
   font-size: 3.2rem;
   position: absolute;
@@ -318,6 +314,7 @@ body h4 {
 .title:last-of-type {
   top: 5.2rem;
   left: 6rem;
+  font-weight: normal;
 }
 
 .btn_wrapper {
@@ -351,6 +348,10 @@ body h4 {
   font-size: 1.8rem;
 }
 
+.header__nav__list {
+  padding-bottom: 2rem;
+}
+
 .header__nav__list li {
   padding: 0 1.6rem 0 1.6rem;
   display: inline-block;
@@ -358,4 +359,24 @@ body h4 {
   text-transform: uppercase;
   color: #5e42b0;
   line-height: 2rem;
+}
+
+@media only screen and (min-width: 560px) {
+  .header__wrapper-title {
+    width: 55.8rem;
+  }
+  .title {
+    font-size: 4.8rem;
+  }
+  .header__nav__list li {
+    font-size: 1.4rem;
+  }
+  .btn_apple,
+  .btn_google,
+  .btn_apple span,
+  .btn_google span {
+    width: 24rem;
+    height: 6rem;
+    font-size: 1.2rem;
+  }
 }
