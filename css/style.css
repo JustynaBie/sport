@@ -270,13 +270,20 @@ body h4 {
 }
 
 .header__logo {
+  width: 100%;
   padding: 3.9rem 0 13rem 0;
+}
+
+.header .logo-text {
+  font-size: 1.4rem;
+  padding-right: 1.1rem;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .header__wrapper-title {
   height: 24rem;
   width: 31.8rem;
-  border: 1px solid #fff;
 }
 
 .header__wrapper-title:before {
@@ -316,7 +323,7 @@ body h4 {
 .btn_google span {
   width: 14.2rem;
   height: 4rem;
-  margin: 0 0.3rem 3.8rem 0.3rem;
+  margin: 0 0.3rem 0 0.3rem;
   background-color: #5e42b0;
   border-color: transparent;
   border-radius: 20px;
@@ -324,6 +331,7 @@ body h4 {
 }
 
 .header__wrapper-btn {
+  margin-bottom: 3.8rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -333,6 +341,7 @@ body h4 {
   padding-left: 1rem;
   display: inline-block;
   text-align: left;
+  vertical-align: middle;
 }
 
 .google_play {
@@ -356,7 +365,7 @@ body h4 {
   font-weight: bolder;
 }
 
-.fa {
+.fa-apple {
   font-size: 1.8rem;
 }
 
@@ -373,9 +382,15 @@ body h4 {
   line-height: 2rem;
 }
 
-@media only screen and (min-width: 544px) {
+@media (max-width: 601px) {
+  .logo-text {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 440px) {
   .header__wrapper-title {
-    width: 76.1rem;
+    width: 44rem;
   }
   .title {
     font-size: 4.8rem;
@@ -387,8 +402,69 @@ body h4 {
   .btn_google,
   .btn_apple span,
   .btn_google span {
-    width: 23srem;
-    height: 6rem;
+    width: 21rem;
+    height: 5.9rem;
     font-size: 1.1rem;
+    border-radius: 40px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .header__logo {
+    padding: 5.6rem 0 18rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header__wrapper-title {
+    width: 60rem;
+    height: 40rem;
+  }
+  .header__wrapper-title:before {
+    margin-top: -7rem;
+    height: 38.2rem;
+    width: 0.8rem;
+  }
+  .title {
+    font-size: 6rem;
+  }
+  .title:first-of-type {
+    margin: -30.9rem 0 0 -0.5rem;
+    letter-spacing: 0.2rem;
+  }
+  .title:last-of-type {
+    margin: 0.5rem 0 0 10.5rem;
+    font-weight: normal;
+    letter-spacing: 0.3rem;
+  }
+  .header__nav__list li {
+    font-size: 1.6rem;
+  }
+  .header__wrapper-btn {
+    margin: 9rem 0 9rem 0;
+    order: 3;
+  }
+  .btn_apple,
+  .btn_google,
+  .btn_apple span,
+  .btn_google span {
+    width: 31.6rem;
+    height: 8rem;
+    margin: 0 1.4rem;
+    border-radius: 40px;
+    font-size: 1.4rem;
+  }
+  .btn_apple span,
+  .btn_google span {
+    margin: 0;
+  }
+  .fa-apple {
+    font-size: 4rem;
+    margin-left: -4.5rem;
+  }
+  .google_play {
+    width: 3.6rem;
+    height: 3.6rem;
+    margin-left: -5rem;
   }
 }
