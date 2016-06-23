@@ -590,6 +590,7 @@ body h4 {
   text-transform: uppercase;
   position: relative;
   letter-spacing: 0.1rem;
+  display: none;
 }
 
 .athlets__list__item h2 {
@@ -611,7 +612,6 @@ body h4 {
 
 .athlets__list__item:nth-of-type(2) {
   background-color: #f5f4f9;
-  display: none;
 }
 
 .athlets__list__item:nth-of-type(2) h2:before {
@@ -620,7 +620,6 @@ body h4 {
 
 .athlets__list__item:nth-child(3) {
   background-color: #5e42b0;
-  display: none;
 }
 
 .athlets__list__item:nth-child(3) p {
@@ -647,6 +646,10 @@ body h4 {
   display: inline-block;
 }
 
+.athlets__counter .active {
+  background-color: #5e42b0;
+}
+
 .list-item-wrapper {
   width: 29rem;
   margin: 0 auto;
@@ -659,4 +662,8 @@ body h4 {
   background-size: cover;
   position: relative;
   z-index: 1;
+}
+
+.list-item-active {
+  display: block;
 }
