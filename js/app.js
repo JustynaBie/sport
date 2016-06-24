@@ -22,14 +22,11 @@ $(function(){
 
   testMatch();
 
-//function which give event on click to athlets__list__item 
+//function which give event on click to athlets__list__item
   function changeAthletsInfo(){
     for(var i=0; i<athletsListItems.length; i++){
         athletsListItems[i].addEventListener("click", function(event){
-          console.log(smallesWidth)
           if(smallesWidth === true){
-            console.log("jestem" + counterAthlets);
-
             athletsListItems[counterAthlets].classList.remove("list-item--active");
             athletsIndicator[counterAthlets].classList.remove("active");
             if(counterAthlets === 2){

@@ -397,161 +397,6 @@ body h4 {
   line-height: 2rem;
 }
 
-@media (max-width: 601px) {
-  .logo-text {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 440px) {
-  .header__wrapper-title {
-    width: 44rem;
-  }
-  .header__wrapper-title:before {
-    margin-top: -7rem;
-    height: 30rem;
-    width: 0.6rem;
-  }
-  .header__logo {
-    padding: 4.5rem 0 15rem 0;
-  }
-  .title {
-    font-size: 4.8rem;
-  }
-  .title:first-of-type {
-    margin: -24rem 0 0 -0.6rem;
-    letter-spacing: 0.2rem;
-  }
-  .header__nav__list li {
-    font-size: 1.4rem;
-  }
-  .header__wrapper-btn {
-    margin: 7rem 0 7rem 0;
-  }
-  .btn-apple,
-  .btn-google,
-  .btn-apple span,
-  .btn-google span {
-    width: 21rem;
-    height: 5.9rem;
-    font-size: 1.1rem;
-    border-radius: 40px;
-  }
-}
-
-@media only screen and (min-width: 601px) {
-  .header .logo-img {
-    width: 19rem;
-    margin: 0;
-  }
-  .header__logo {
-    padding: 5.6rem 0 18rem 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .header__wrapper-title {
-    width: 60rem;
-    height: 40rem;
-  }
-  .header__wrapper-title:before {
-    margin-top: -7rem;
-    height: 38.2rem;
-    width: 0.8rem;
-  }
-  .title {
-    font-size: 6rem;
-  }
-  .title:first-of-type {
-    margin: -30.9rem 0 0 -0.5rem;
-    letter-spacing: 0.2rem;
-  }
-  .title:last-of-type {
-    margin: 0.5rem 0 0 10.5rem;
-    font-weight: normal;
-    letter-spacing: 0.3rem;
-  }
-  .header__nav__list li {
-    font-size: 1.6rem;
-  }
-  .header__wrapper-btn {
-    margin: 9rem 0 9rem 0;
-    order: 3;
-  }
-  .btn-apple,
-  .btn-google,
-  .btn-apple span,
-  .btn-google span {
-    width: 31.6rem;
-    height: 8rem;
-    margin: 0 1.4rem;
-    border-radius: 40px;
-    font-size: 1.4rem;
-  }
-  .btn_apple span,
-  .btn_google span {
-    margin: 0;
-  }
-  .fa-apple {
-    font-size: 4rem;
-    margin-left: -4.5rem;
-  }
-  .google_play {
-    width: 3.6rem;
-    height: 3.6rem;
-    margin-left: -5rem;
-  }
-}
-
-@media only screen and (min-width: 1500px) {
-  .header__logo {
-    padding: 5.8rem 0 9rem 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .header__wrapper-title {
-    width: 150rem;
-    height: 32rem;
-  }
-  .header__wrapper-title:before {
-    margin-top: -7rem;
-    height: 38.2rem;
-    width: 0.8rem;
-  }
-  .title {
-    font-size: 9rem;
-  }
-  .title:first-of-type {
-    margin: -30.9rem 0 0 -0.5rem;
-    letter-spacing: 0.2rem;
-  }
-  .title:last-of-type {
-    margin: 0.5rem 0 0 10.5rem;
-    font-weight: normal;
-    letter-spacing: 0.3rem;
-  }
-  .header__nav__list li {
-    font-size: 1.4rem;
-  }
-  .header__wrapper-btn {
-    margin: 9rem 0 9rem 0;
-  }
-  .btn_apple span,
-  .btn_google span {
-    margin: 0;
-  }
-  .fa-apple {
-    font-size: 4rem;
-    margin-left: -4.5rem;
-  }
-  .google_play {
-    width: 3.6rem;
-    height: 3.6rem;
-    margin-left: -5rem;
-  }
-}
-
 .athlets__list__item:first-of-type h2:before, .athlets__list__item:nth-of-type(2) h2:before, .athlets__list__item:nth-child(3) h2:before {
   margin-top: -0.5rem;
   position: absolute;
@@ -666,4 +511,198 @@ body h4 {
 
 .list-item--active {
   display: block;
+}
+
+@media (max-width: 601px) {
+  .logo-text {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 440px) {
+  .header__wrapper-title {
+    width: 44rem;
+  }
+  .header__wrapper-title:before {
+    margin-top: -7rem;
+    height: 30rem;
+    width: 0.6rem;
+  }
+  .header__logo {
+    padding: 4.5rem 0 15rem 0;
+  }
+  .title {
+    font-size: 4.8rem;
+  }
+  .title:first-of-type {
+    margin: -24rem 0 0 -0.6rem;
+    letter-spacing: 0.2rem;
+  }
+  .header__nav__list li {
+    font-size: 1.4rem;
+  }
+  .header__wrapper-btn {
+    margin: 7rem 0 7rem 0;
+  }
+  .btn-apple,
+  .btn-google,
+  .btn-apple span,
+  .btn-google span {
+    width: 21rem;
+    height: 5.9rem;
+    font-size: 1.1rem;
+    border-radius: 40px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .header .logo-img {
+    width: 19rem;
+    margin: 0;
+  }
+  .header__logo {
+    padding: 5.6rem 0 18rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header__wrapper-title {
+    width: 60rem;
+    height: 40rem;
+  }
+  .header__wrapper-title:before {
+    margin-top: -7rem;
+    height: 38.2rem;
+    width: 0.8rem;
+  }
+  .title {
+    font-size: 6rem;
+  }
+  .title:first-of-type {
+    margin: -30.9rem 0 0 -0.5rem;
+    letter-spacing: 0.2rem;
+  }
+  .title:last-of-type {
+    margin: 0.5rem 0 0 10.5rem;
+    font-weight: normal;
+    letter-spacing: 0.3rem;
+  }
+  .header__nav__list li {
+    font-size: 1.6rem;
+  }
+  .header__wrapper-btn {
+    margin: 9rem 0 9rem 0;
+    order: 3;
+  }
+  .btn-apple,
+  .btn-google,
+  .btn-apple span,
+  .btn-google span {
+    width: 31.6rem;
+    height: 8rem;
+    margin: 0 1.4rem;
+    border-radius: 40px;
+    font-size: 1.4rem;
+  }
+  .btn_apple span,
+  .btn_google span {
+    margin: 0;
+  }
+  .fa-apple {
+    font-size: 4rem;
+    margin-left: -4.5rem;
+  }
+  .google_play {
+    width: 3.6rem;
+    height: 3.6rem;
+    margin-left: -5rem;
+  }
+  .footballer-img {
+    width: 42.2rem;
+    height: 60rem;
+    background-image: url("../img/footballer_desktop.png");
+    background-size: cover;
+  }
+  .athlets__img {
+    margin-left: -83%;
+    margin-top: -6rem;
+  }
+  .athlets__title {
+    padding: 5.7rem 0 0.7rem 37rem;
+    font-size: 9rem;
+  }
+  .athlets__list {
+    margin-top: -55rem;
+  }
+  .athlets__list__item {
+    margin-top: 0;
+    display: block;
+    padding: 3rem 0 3rem 0;
+  }
+  .athlets__indicator {
+    display: none;
+  }
+  .list-item-wrapper {
+    width: 41rem;
+    margin-left: 27.7rem;
+  }
+  .list-item-wrapper h2 {
+    font-size: 3.6rem;
+  }
+  .list-item-wrapper p {
+    font-size: 1.8rem;
+    letter-spacing: 0;
+  }
+  .athlets__list .athlets__list__item h2:before {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .header__logo {
+    padding: 5.8rem 0 9rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header__wrapper-title {
+    width: 150rem;
+    height: 32rem;
+  }
+  .header__wrapper-title:before {
+    margin-top: -7rem;
+    height: 38.2rem;
+    width: 0.8rem;
+  }
+  .title {
+    font-size: 9rem;
+  }
+  .title:first-of-type {
+    margin: -30.9rem 0 0 -0.5rem;
+    letter-spacing: 0.2rem;
+  }
+  .title:last-of-type {
+    margin: 0.5rem 0 0 10.5rem;
+    font-weight: normal;
+    letter-spacing: 0.3rem;
+  }
+  .header__nav__list li {
+    font-size: 1.4rem;
+  }
+  .header__wrapper-btn {
+    margin: 9rem 0 9rem 0;
+  }
+  .btn_apple span,
+  .btn_google span {
+    margin: 0;
+  }
+  .fa-apple {
+    font-size: 4rem;
+    margin-left: -4.5rem;
+  }
+  .google_play {
+    width: 3.6rem;
+    height: 3.6rem;
+    margin-left: -5rem;
+  }
 }
