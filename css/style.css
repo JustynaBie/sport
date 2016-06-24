@@ -325,10 +325,10 @@ body h4 {
   font-weight: normal;
 }
 
-.btn_apple,
-.btn_google,
-.btn_apple span,
-.btn_google span {
+.btn-apple,
+.btn-google,
+.btn-apple span,
+.btn-google span {
   width: 14.2rem;
   height: 4rem;
   margin: 0 0.3rem 0 0.3rem;
@@ -345,37 +345,37 @@ body h4 {
   align-items: center;
 }
 
-.btn_text-wrapper {
+.btn-text-wrapper {
   padding-left: 1rem;
   display: inline-block;
   text-align: left;
   vertical-align: middle;
 }
 
-.google_play {
+.google-play {
   width: 1.6rem;
   height: 1.6rem;
   background-image: url("../img/google_play.png");
   background-size: cover;
 }
 
-.btn_apple,
-.btn_google,
-.btn_apple span,
-.btn_google span {
+.btn-apple,
+.btn-google,
+.btn-apple span,
+.btn-google span {
   text-transform: uppercase;
   font-size: 0.8rem;
 }
 
-.btn_apple,
-.btn_google {
+.btn-apple,
+.btn-google {
   -webkit-box-shadow: 0px 16px 33px 0px #0a0e34;
   -moz-box-shadow: 0px 16px 33px 0px #0a0e34;
   box-shadow: 0px 16px 33px 0px #0a0e34;
 }
 
-.btn_apple span,
-.btn_google span {
+.btn-apple span,
+.btn-google span {
   margin: 0;
   font-weight: bolder;
 }
@@ -428,10 +428,10 @@ body h4 {
   .header__wrapper-btn {
     margin: 7rem 0 7rem 0;
   }
-  .btn_apple,
-  .btn_google,
-  .btn_apple span,
-  .btn_google span {
+  .btn-apple,
+  .btn-google,
+  .btn-apple span,
+  .btn-google span {
     width: 21rem;
     height: 5.9rem;
     font-size: 1.1rem;
@@ -478,10 +478,10 @@ body h4 {
     margin: 9rem 0 9rem 0;
     order: 3;
   }
-  .btn_apple,
-  .btn_google,
-  .btn_apple span,
-  .btn_google span {
+  .btn-apple,
+  .btn-google,
+  .btn-apple span,
+  .btn-google span {
     width: 31.6rem;
     height: 8rem;
     margin: 0 1.4rem;
@@ -631,13 +631,13 @@ body h4 {
   border-color: #efefef;
 }
 
-.athlets__counter {
+.athlets__indicator {
   margin-top: -4.7rem;
   position: relative;
   z-index: 1;
 }
 
-.athlets__counter div {
+.athlets__indicator div {
   width: 1rem;
   height: 1rem;
   margin: 0.5rem;
@@ -646,7 +646,7 @@ body h4 {
   display: inline-block;
 }
 
-.athlets__counter .active {
+.athlets__indicator .active {
   background-color: #5e42b0;
 }
 
@@ -664,6 +664,6 @@ body h4 {
   z-index: 1;
 }
 
-.list-item-active {
+.list-item--active {
   display: block;
 }
